@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DBIC - DB Itgelt Consulting TMZ</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(to right, #003366, #0055a5);
+      color: white;
+      padding: 80px 40px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .hero button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: white;
+      color: #003366;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .services {
+      padding: 60px 40px;
+      background-color: #fff;
+    }
+    .services h3 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    .service-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .service {
+      background: #f0f4f8;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DBIC</h1>
+    <nav>
+      <a href="#">Нүүр</a>
+      <a href="#services">Үйлчилгээ</a>
+      <a href="#contact">Холбоо барих</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>DB Itgelt Consulting TMZ</h2>
+    <p>Нягтлан бодох бүртгэл, татвар, зөвлөгөө – итгэлтэйгээр хандаарай</p>
+    <button>Үйлчилгээ авах</button>
+  </section>
+
+  <section class="services" id="services">
+    <h3>Манай үйлчилгээ</h3>
+    <div class="service-list">
+      <div class="service">
+        <h4>Тайлан тооцоо</h4>
+        <p>Санхүүгийн болон татварын тайлан бэлтгэх үйлчилгээ</p>
+      </div>
+      <div class="service">
+        <h4>Санхүүгийн зөвлөгөө</h4>
+        <p>Бизнесийн хөгжлийн төлөвлөгөө, зөвлөгөө өгөх</p>
+      </div>
+      <div class="service">
+        <h4>Нягтлан бодох бүртгэл</h4>
+        <p>Аутсорсинг үйлчилгээ – бүртгэлийн цогц шийдэл</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Холбоо барих: info@dbic.mn | Утас: +976 9999-0000</p>
+    <p>&copy; 2025 DB Itgelt Consulting TMZ</p>
+  </footer>
+</body>
+</html>
